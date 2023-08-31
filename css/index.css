@@ -1,0 +1,91 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #010101;
+    min-height: 3000px;
+}
+
+.nav-wrapper {
+    font-size: 20px;
+}
+
+.nav-wrapper ul a {
+    font-size: 18px;
+}
+
+.nav-wrapper ul a:hover {
+    color: rgb(232, 219, 219);
+}
+
+.slider {
+    background-color: #bdbdbd ;
+}
+
+/* profile */
+
+.profile {
+    background-color: #bdbdbd ;
+}
+
+.profile, .title h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 3rem 7% 1.2rem;
+}
+
+.sejarah, .paragraf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading, .head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading h3 {
+    font-size: 1.7pc;
+    margin-left: 3pc;
+}
+
+.sejarah p {
+    font-size: 20px;
+    margin-left: 3pc;
+    text-align: justify;
+    max-width: 50%;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link  a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.info {
+    margin: 2rem;
+}
+
+.info h2 {
+    font-size: 1.5rem;
+}
+
+.bagian {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.bagian a {
+    margin: 2rem;
+    font-size: 1.2rem;
+    color: #010101;
+    background-color: #eceff1;
+}
+
+.bagian a:hover {
+    color: green;
+}
+
